@@ -1,12 +1,15 @@
 import React from "react";
+import Forms from "./Forms";
 import Function from "./Function";
-import Class from "./Class"
+// import Class from "./Class"
+import { NamedExport } from "./NamedExport";
 
 const App=()=>{
     return(
         <>
         <Function />
-        <Class/>
+        <NamedExport/>
+        <Forms/>
         </>
     )
 }
