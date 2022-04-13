@@ -8,7 +8,7 @@ Jsx stands for javaScript Xml ,it is Html like syntax which allows us to write H
 ### Virtual Dom :
  Virtual dom is the simple representation of the real dom.It has the same features which real dom has i.e,properties and methods like the real dom .
  ### Virtual dom working :
- At first the virtual dom gets updated and after that the changes made in the virtual dom are compared with the actual dom (real dom),then these changes are updated in the actual dom(real dom).The process of comparing virtual dom and real dom is called deffing algorithem.These entire process is done to control the re-render process and code gets executed fast.It takes less time to execute.
+ At first the virtual dom gets updated and after that the changes made in the virtual dom are compared with the actual dom (real dom),then these changes are updated in the actual dom(real dom).The process of comparing virtual dom and real dom is called diffing algorithm.These entire process is done to control the re-render process and code gets executed fast.It takes less time to execute.This entire proces of transforming changes to the real DOM is called Reconciliation
 ### Components:
   In React Everything is based on components. In react components a piece of code is written and these component along with the code can be used when ever needed without creating the component and writing logic again and again.In react components can be created in two ways 1.Functional component and the 2.Class components.Based on the requirement the type components are used.
   ### SPA(Single page application):
